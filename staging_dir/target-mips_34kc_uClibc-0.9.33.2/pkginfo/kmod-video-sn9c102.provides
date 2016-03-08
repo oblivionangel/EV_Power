@@ -1,0 +1,7 @@
+i2c-dev.ko
+nls_base.ko
+sn9c102.ko
+usb-common.ko
+usbcore.ko
+v4l2-common.ko
+videodev.ko

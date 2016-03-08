@@ -1,0 +1,3 @@
+package-$(CONFIG_PACKAGE_EV_server) += EV_server
+package-$(CONFIG_PACKAGE_helloworld) += helloworld
+package-$(CONFIG_PACKAGE_user_service) += user_service

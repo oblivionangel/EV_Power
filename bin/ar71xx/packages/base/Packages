@@ -1,0 +1,41 @@
+Package: EV_server
+Version: 1
+Depends: libc, libopenssl
+Source: package/EV_server
+Section: utils
+Architecture: ar71xx
+Installed-Size: 9829
+Filename: EV_server_1_ar71xx.ipk
+Size: 10391
+MD5Sum: 4f14f7020491bd134c74e684a5db89bf
+SHA256sum: 78b72ee3ae74984de58966644288454847e48f18c128eb09147031f906fe7d26
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: helloworld
+Version: 1
+Depends: libc, libpthread
+Source: package/helloworld
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1240
+Filename: helloworld_1_ar71xx.ipk
+Size: 1741
+MD5Sum: 5066ddc88b3f207eb5344eba709813a4
+SHA256sum: 456564fa913d93689e8be33fbfdcb413d6663e4b9853c6cf2bd4884fdc228610
+Description:  Helloworld
+
+Package: user_service
+Version: 1
+Depends: libc
+Source: package/user_service
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1198
+Filename: user_service_1_ar71xx.ipk
+Size: 1770
+MD5Sum: 725b393918559dc8579f0b9807bc0620
+SHA256sum: f5f3d176bb6a4be66f12e45e687d48b971d6dc079fd6727cde59179019977ad9
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+

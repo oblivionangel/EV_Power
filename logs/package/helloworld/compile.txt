@@ -1,0 +1,7 @@
+make[4]: Entering directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/helloworld'
+ccache_cc  -c helloworld.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc  helloworld.o -o helloworld
+make[4]: Leaving directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/helloworld'
+rstrip.sh: /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/helloworld/ipkg-ar71xx/helloworld/bin/helloworld:executable
+Packaged contents of /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/helloworld/ipkg-ar71xx/helloworld into /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/bin/ar71xx/packages/base/helloworld_1_ar71xx.ipk

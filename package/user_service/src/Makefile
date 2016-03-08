@@ -1,0 +1,9 @@
+#build helloworld executable when user executes "make"
+user_service: user_service.o
+	$(CC) $(LDFLAGS) user_service.o -o user_service
+user_service.o: user_service.c
+	$(CC) $(CFLAGS) -c user_service.c
+# remove object files and executable when user executes "make clean"
+clean:
+	rm *.o user_service
+

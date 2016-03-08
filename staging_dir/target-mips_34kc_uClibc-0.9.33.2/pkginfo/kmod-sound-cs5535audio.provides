@@ -1,0 +1,15 @@
+ac97_bus.ko
+input-core.ko
+snd-ac97-codec.ko
+snd-compress.ko
+snd-cs5535audio.ko
+snd-hwdep.ko
+snd-mixer-oss.ko
+snd-page-alloc.ko
+snd-pcm-oss.ko
+snd-pcm.ko
+snd-rawmidi.ko
+snd-seq-device.ko
+snd-timer.ko
+snd.ko
+soundcore.ko

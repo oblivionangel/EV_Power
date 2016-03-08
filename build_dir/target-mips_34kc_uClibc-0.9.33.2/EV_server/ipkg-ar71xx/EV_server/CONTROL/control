@@ -1,0 +1,9 @@
+Package: EV_server
+Version: 1
+Depends: libc, libopenssl
+Source: package/EV_server
+Section: utils
+Architecture: ar71xx
+Installed-Size: 9829
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.

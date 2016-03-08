@@ -1,0 +1,8 @@
+Package: helloworld
+Version: 1
+Depends: libc, libpthread
+Source: package/helloworld
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1240
+Description:  Helloworld

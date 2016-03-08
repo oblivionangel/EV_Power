@@ -1,0 +1,16 @@
+make[4]: Entering directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/EV_server'
+ccache_cc -c main.c main.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc -c net_info.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc -c CRC.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc -c  AES.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc -c protocal_conn.c
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+ccache_cc main.o net_info.o CRC.o AES.o protocal_conn.o -lcrypto -L/usr/lib/x86_64-linux-guc/   -o EV_server   
+make[4]: Leaving directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/EV_server'
+rstrip.sh: /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/EV_server/ipkg-ar71xx/EV_server/bin/EV_server:executable
+Packaged contents of /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/EV_server/ipkg-ar71xx/EV_server into /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/bin/ar71xx/packages/base/EV_server_1_ar71xx.ipk

@@ -1,0 +1,45 @@
+menuconfig IMAGEOPT
+	bool "Image configuration"
+	default n
+source "package/*/image-config.in"
+menu "Utilities"
+
+	config PACKAGE_EV_server
+		tristate "EV_server........................... EV_server -- prints a snarky message"
+		default y if DEFAULT_EV_server
+		default m if ALL
+		select PACKAGE_libc
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libpthread if USE_EGLIBC
+		select PACKAGE_libopenssl
+		help
+		 If you can't figure out what this program does, you're probably
+		 brain-dead and need immediate medical attention.
+		 
+
+	config PACKAGE_helloworld
+		tristate "helloworld.................................................... Helloworld"
+		default y if DEFAULT_helloworld
+		default m if ALL
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libc
+		select PACKAGE_libpthread
+		select PACKAGE_libpthread if USE_EGLIBC
+		help
+		 Helloworld
+		 
+
+	config PACKAGE_user_service
+		tristate "user_service..................... User_service -- prints a snarky message"
+		default y if DEFAULT_user_service
+		default m if ALL
+		select PACKAGE_libc
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libpthread if USE_EGLIBC
+		help
+		 If you can't figure out what this program does, you're probably
+		 brain-dead and need immediate medical attention.
+		 
+
+endmenu
+

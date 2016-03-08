@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/BB/build/ar71xx/generic/staging_dir/host/bin/bison' -y "$@"

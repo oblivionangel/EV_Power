@@ -1,0 +1,6 @@
+make[2]: Entering directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/package/ev_server'
+rm -f /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.ev_server_installed
+rm -f /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/bin/ar71xx/packages/base/ev_server_*
+rm -f /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/target-mips_34kc_uClibc-0.9.33.2/packages/ev_server.list /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/host/packages/ev_server.list
+rm -rf /home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/build_dir/target-mips_34kc_uClibc-0.9.33.2/ev_server
+make[2]: Leaving directory `/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/package/ev_server'

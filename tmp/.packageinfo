@@ -1,0 +1,54 @@
+Source-Makefile: package/helloworld/Makefile
+Package: helloworld
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Helloworld
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Helloworld
+
+@@
+
+
+Source-Makefile: package/EV_server/Makefile
+Package: EV_server
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libopenssl
+Menu-Depends: 
+Provides: 
+Build-Depends: libopenssl
+Section: utils
+Category: Utilities
+Title: EV_server -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: If you can't figure out what this program does, you're probably
+brain-dead and need immediate medical attention.
+
+@@
+
+
+Source-Makefile: package/user_service/Makefile
+Package: user_service
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: User_service -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: If you can't figure out what this program does, you're probably
+brain-dead and need immediate medical attention.
+
+@@
+
+

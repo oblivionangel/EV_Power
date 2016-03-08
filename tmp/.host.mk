@@ -1,0 +1,9 @@
+HOST_OS:=Linux
+HOST_ARCH:=x86_64
+GNU_HOST_NAME:=x86_64-linux-gnu
+TAR:=/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/host/bin/tar
+FIND:=/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/host/bin/find
+BASH:=/bin/bash
+FIND_L=/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/host/bin/find -L $(1)
+PATCH:=/home/jaylin/Documents/Open-WRT/OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2/staging_dir/host/bin/patch
+PYTHON:=/usr/bin/python2.7
